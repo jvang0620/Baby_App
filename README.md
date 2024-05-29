@@ -1,11 +1,11 @@
 # Baby App
 
 <div align="center">
-    <img src="image/app-img/app-img-1.JPG" alt="Tic Tac Toe App" width="400">
+    <img src="./image/app-img/app-img-1.JPG" alt="Tic Tac Toe App" width="400">
 </div>
 
 <div align="center">
-    <img src="image/app-img/app-img-2.JPG" alt="Tic Tac Toe App" width="400">
+    <img src="./image/app-img/app-img-2.JPG" alt="Tic Tac Toe App" width="400">
 </div>
 
 ### Overview
