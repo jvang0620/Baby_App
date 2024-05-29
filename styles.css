@@ -1,0 +1,45 @@
+body {
+    background-image: url('/image/app-background-img/eucalyptus-7.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Fix the background image while scrolling */
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.text-center {
+    color: #4e4e4e; /* Dark Gray Text Color */
+}
+
+/* Styling for Videos and Images */
+.embed-responsive,
+.embed-responsive-16by9 {
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  /* Shadow effect */
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 15px; /* Rounded corners */
+    margin-bottom: 15px;
+}
+
+.full-width-video {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 15px; /* Rounded corners */
+    margin-bottom: 15px;
+}
+
+/* Modal Styling */
+.modal-content {
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow effect */
+}

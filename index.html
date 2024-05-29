@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Other meta tags and styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Baby Vang Album</title>
+</head>
+
+<body>
+    <h1 class="text-center">Baby Vang Album 🌿</h1>
+    <h3 class="text-center">Due Date: July 24, 2024</h3> <br><br>
+    <div class="container-fluid">
+        <div class="container text-center">
+          <!-- Videos -->
+          <h3>Date of Ultrasound: 4/29/2024</h3>
+          <h3>27 weeks & 6 days</h3>
+          <div>
+            <h3>Size of a cauliflower <img src="/image/cauliflower/cauliflower.png" alt="cauliflower" height="40px"> (2 pounds & 5oz ~ 10 inches)</h3>
+          </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <div class="embed-responsive embed-responsive-16by9 mx-auto text-center rounded">
+                    <video class="embed-responsive-item rounded p-2 full-width-video " src="/videos/our-baby-videos/baby-video-1.mp4" loop autoplay muted style="width: 100%;" onclick="openFullscreenVideo(this)">
+                    </video>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9 mx-auto text-center rounded">
+                    <video class="embed-responsive-item rounded p-2 full-width-video " src="/videos/our-baby-videos/baby-video-2.mp4" loop autoplay muted style="width: 100%; height: 10%" onclick="openFullscreenVideo(this)">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!-- Images -->
+        <div class="row">
+            <div class="col-md-4 mb-2 embed-responsive-16by9">
+              <div class="mt-3">
+                <img src="/image/our-baby-pics/baby-pic-1.jpg" class="img-fluid full-width-image rounded" alt="baby image 1" onclick="openFullScreenImage('/image/our-baby-pics/baby-pic-1.jpg')">
+              </div>
+            </div>
+            <div class="col-md-4 mb-2 embed-responsive-16by9">
+              <div class="mt-3">
+                <img src="/image/our-baby-pics/baby-pic-2.jpg" class="img-fluid full-width-image rounded" alt="baby image 2" onclick="openFullScreenImage('/image/our-baby-pics/baby-pic-2.jpg')">
+              </div>
+             </div>
+            <div class="col-md-4 mb-2 embed-responsive-16by9">
+              <div class="mt-3">
+                <img src="/image/our-baby-pics/baby-pic-3.jpg" class="img-fluid full-width-image rounded" alt="baby image 3" onclick="openFullScreenImage('/image/our-baby-pics/baby-pic-3.jpg')">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text-center">Mommy and Daddy loves you!</h1>
+
+    <!-- Full Screen Image Modal -->
+    <div class="modal" id="fullScreenImageModal">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <img id="fullScreenImage" class="img-fluid full-width-image rounded" alt="Full Screen Image">
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap 5 script (including Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- javascript -->
+    <script async src="script.js"></script>
+
+</body>
+
+</html>
